@@ -1,4 +1,4 @@
-const esprima = require('esprima');
+const esprima = require('./esprima');
 
 import { Node, Program, SourceLocation, FunctionDeclaration } from 'estree';
 import { checkSideEffect } from './side-effects';
